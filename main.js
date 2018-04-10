@@ -28,7 +28,7 @@ if(typeof window.BrowserType !== 'undefined') {
     isBlink: (this.isChrome || this.isOpera) && !!window.CSS
   }
 
-  var docBase = document.getElementByTagName('html')[0];
+  var docBase = document.getElementsByTagName('html')[0];
   if(BrowserType.isOpera) {
     docBase.classList.add('bt-opera');
   } else if(BrowserType.isFirefox) {
