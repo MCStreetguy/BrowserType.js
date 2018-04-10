@@ -1,0 +1,17 @@
+{
+  "name": "browsertype.js",
+  "description": "An automated detection library for the current browser.",
+  "main": "main.js",
+  "authors": [
+    "Maximilian Schmidt <maximilianschmidt404@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MCStreetguy/BrowserType.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
