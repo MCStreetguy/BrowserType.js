@@ -14,12 +14,12 @@ $ bower install browsertype.js --save
 ```
 
 **CDN:**     
+- https://bundle.run/browsertype.js@1.0.0
+- https://unpkg.com/browsertype.js@1.0.0/main.js
 - https://cdn.jsdelivr.net/npm/browsertype.js@1.0.0
 - https://cdn.jsdelivr.net/npm/browsertype.js@1.0.0/main.min.js
 - https://cdn.jsdelivr.net/gh/mcstreetguy/browsertype.js@1.0.0/main.js
 - https://cdn.jsdelivr.net/gh/mcstreetguy/browsertype.js@1.0.0/main.min.js
-
-_You can change `1.0.0` to any version you want to require. See https://www.jsdelivr.com/ for more information._
 
 ## Usage
 ### Scripts
