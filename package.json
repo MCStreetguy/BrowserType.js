@@ -1,0 +1,19 @@
+{
+  "name": "browsertype.js",
+  "version": "1.0.0",
+  "description": "An automated detection library for the current browser.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCStreetguy/BrowserType.js.git"
+  },
+  "author": "Maximilian Schmidt <maximilianschmidt404@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MCStreetguy/BrowserType.js/issues"
+  },
+  "homepage": "https://github.com/MCStreetguy/BrowserType.js#readme"
+}
