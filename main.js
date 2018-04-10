@@ -1,4 +1,4 @@
-(function() {
+(function(window) {
   'use strict';
 
   if(typeof window.BrowserType !== 'undefined') {
@@ -49,4 +49,4 @@
     docBase.classList.add('bt-other');
   }
 
-}());
+}(window));
