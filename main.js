@@ -1,10 +1,6 @@
-(function(window) {
-  'use strict';
-
-  if(typeof window.BrowserType !== 'undefined') {
-    if('console' in window) console.log('BrowserType.js seems to be initialized already! Aborting...');
-    return;
-  }
+if(typeof window.BrowserType !== 'undefined') {
+  if('console' in window) console.log('BrowserType.js seems to be initialized already! Aborting...');
+} else {
 
   /**
    * expressions taken from: https://stackoverflow.com/a/9851769/5088645
@@ -49,4 +45,4 @@
     docBase.classList.add('bt-other');
   }
 
-}(window));
+}
