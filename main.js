@@ -19,10 +19,10 @@ if(typeof window.BrowserType !== 'undefined') {
     isIE: /*@cc_on!@*/false || !!document.documentMode,
 
     // Edge 20+
-    isEdge: !this.isIE && !!window.StyleMedia,
+    isEdge: (!this.isIE && !!window.StyleMedia) || window.navigator.userAgent.indexOf("Edge") > -1,
 
     // Chrome 1+
-    isChrome: !!window.chrome && !!window.chrome.webstore,
+    isChrome: !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime),
 
     // Blink engine detection
     isBlink: (this.isChrome || this.isOpera) && !!window.CSS
