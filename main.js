@@ -22,7 +22,7 @@ if(typeof window.BrowserType !== 'undefined') {
     isEdge: (!this.isIE && !!window.StyleMedia) || window.navigator.userAgent.indexOf("Edge") > -1,
 
     // Chrome 1+
-    isChrome: !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime),
+    isChrome: !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime) || !!window.navigator.plugins.namedItem('Chrome PDF Plugin'),
 
     // Blink engine detection
     isBlink: (this.isChrome || this.isOpera) && !!window.CSS
