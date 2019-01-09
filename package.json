@@ -1,6 +1,6 @@
 {
   "name": "browsertype.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An automated detection library for the current browser.",
   "main": "main.js",
   "repository": {
